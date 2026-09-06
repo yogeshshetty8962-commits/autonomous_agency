@@ -20,9 +20,7 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: .
 
       - name: Build APK
         run: flutter build apk --release
-        working-directory: .
         
